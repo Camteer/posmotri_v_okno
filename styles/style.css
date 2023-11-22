@@ -259,7 +259,7 @@ label .search-form__pseudo-checkbox {
 }
 
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 2px;
   top: 2px;
