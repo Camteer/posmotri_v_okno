@@ -55,7 +55,7 @@ ol {
 .content__list {
   max-height: 298px;
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
@@ -146,7 +146,7 @@ ol {
 
 .content__video-card-title {
   padding-bottom: 6px;
-  font-family: Oswald;
+  font-family: Oswald,sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -156,7 +156,7 @@ ol {
 
 .content__video-card-description {
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -216,7 +216,7 @@ ol {
   background-color: transparent;
   color: #fff;
   text-align: center;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed,sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
