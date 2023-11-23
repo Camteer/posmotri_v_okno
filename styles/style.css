@@ -85,10 +85,6 @@ ol {
   padding-left: 2px;
 }
 
-.result {
-  flex-grow: 2;
-}
-
 .result__video-container {
   width: 711px;
   height: 386px;
