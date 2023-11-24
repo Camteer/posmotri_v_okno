@@ -40,7 +40,6 @@ ol {
 
 .content {
   display: flex;
-  padding: 133px 30px;
   justify-content: center;
   align-self: center;
   gap: 30px;
@@ -79,10 +78,6 @@ ol {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-}
-
-.search-form__fieldset:nth-child(2){
-  padding-left: 2px;
 }
 
 .result__video-container {
@@ -238,6 +233,7 @@ ol {
   line-height: normal;
   width: 99%;
   padding: 6px 0;
+  margin: 2px;
 }
 
 .search-form__checkbox-list {
@@ -248,7 +244,7 @@ ol {
 
 label .search-form__pseudo-checkbox {
   display: inline-block;
-  min-width: 20px;
+  min-width: 22px;
   min-height: 20px;
   border: 1px solid #fff;
 }
@@ -320,8 +316,4 @@ button:hover {
 
 .content__card-link_current {
   background-color: #545050;
-}
-
-.more-button {
-  margin: 2px;
 }
